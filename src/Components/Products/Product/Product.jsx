@@ -13,7 +13,7 @@ toastId:'toast-notify'
       })
   }
     return (
-        <Card style={{backgroundColor:'whitesmoke',cursor:'pointer',}} className={classes.root}>
+        <Card style={{backgroundColor:'black',cursor:'pointer',}} className={classes.root}>
             <CardMedia className={classes.media} image={product.media.source} title={product.name}
             />
             <CardContent>
