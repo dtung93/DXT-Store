@@ -13,14 +13,7 @@ toastId:'toast-notify'
       })
   }
     return (
-        <Card style={{backgroundColor:'black',cursor:'pointer',}} className={classes.root}>
-            <CardMedia className={classes.media} image={product.media.source} title={product.name}
-            />
-            <CardContent>
-                <div className={classes.cardContent}>
-                <Typography variant="h6" gutterBottom>
-    {product.name}
-</Typography>
+
 <div>
 <Typography variant="h6" style={{fontWeight:'bold'}}>
     {product.price.formatted_with_symbol}
