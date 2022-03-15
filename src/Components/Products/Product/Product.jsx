@@ -13,19 +13,18 @@ toastId:'toast-notify'
       })
   }
     return (
-        <Card style={{backgroundColor:'black',cursor:'pointer',}} className={classes.root}>
-            <CardMedia className={classes.media} image={product.media.source} title={product.name}
-            />
-            <CardContent>
-                <div className={classes.cardContent}>
+        <Card style={{backgroundColor:'black',cursor:'pointer',}} className={classes.root}>fs
+            <CardMedia className={classes.media} image={product.media.source} title={product.name}fs
+            />dfdfdfdfdfdfdfdfdfd
+            <CardContent>fs
+                <div className={classes.cardContent}>fsfsf
                 <Typography variant="h6" gutterBottom>
-    {product.name}
-</Typography>
-<div>
+    {product.name}fs
+</Typography>fsf
 <Typography variant="h6" style={{fontWeight:'bold'}}>
     {product.price.formatted_with_symbol}
 </Typography></div>
-                </div>
+                </div>fsf
                 <Typography dangerouslySetInnerHTML={{__html: product.description}} variant="body2" color="textSecondary" />
             </CardContent>
             <CardActions disableSpacing className={classes.cardActions}>
