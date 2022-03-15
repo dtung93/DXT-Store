@@ -11,7 +11,7 @@ const Product = ({ product,onAddToCart }) => {
 toastId:'toast-notify'
 
       })
-  }
+  }jjkjkjk
     return (
         <Card style={{backgroundColor:'black',cursor:'pointer',}} className={classes.root}>fs
             <CardMedia className={classes.media} image={product.media.source} title={product.name}fs
